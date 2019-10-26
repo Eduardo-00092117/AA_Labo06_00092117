@@ -33,8 +33,8 @@ void fastestWay(int a[][NUM], int t[][NUM-1], int e[], int x[], int n){
         cout << f1[n-1]+x[0];
     }
     else{
-        cout << r2 << endl;
-        cout << f2[n-1]+x[1];
+        cout << "El tiempo que se tomo fue " << f2[n-1]+x[1] << endl;
+        cout << "El camino que siguió fue " << r2 << endl;
     }
 }
 
